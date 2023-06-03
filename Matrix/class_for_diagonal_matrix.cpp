@@ -36,20 +36,20 @@ public:
             {
                 if (i == j)
                     cout << A[i - 1] << " ";
-                    else
-                cout << "0 ";
+                else
+                    cout << "0 ";
             }
             cout << endl;
         }
     }
-    };
-    int main()
-    {
-        diagonal d(4);
-        d.set(1, 1, 2);
-        d.set(2, 2, 8);
-        d.set(3, 3, 4);
-        d.set(4, 4, 30);
-        d.display();
-        return 0;
-    }
+};
+int main()
+{
+    diagonal d(4);
+    d.set(1, 1, 2);
+    d.set(2, 2, 8);
+    d.set(3, 3, 4);
+    d.set(4, 4, 30);
+    d.display();
+    return 0;
+}

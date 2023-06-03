@@ -1,11 +1,11 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-//first doing recursively 
+// first doing recursively
 int fab(int n)
-{ 
-    if(n<=1)
-    return n;
-    return fab(n-2)+fab(n-1);
+{
+    if (n <= 1)
+        return n;
+    return fab(n - 2) + fab(n - 1);
 }
 // doing itretively
 // int fabo(int n)
@@ -26,6 +26,6 @@ int fab(int n)
 // }
 int main()
 {
-    cout<<"Fabonacci number is = "<<fab(10);
+    cout << "Fabonacci number is = " << fab(10);
     return 0;
 }
