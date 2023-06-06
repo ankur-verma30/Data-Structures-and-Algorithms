@@ -58,9 +58,10 @@ void insert(struct node *p, int pos, int x)
     }
 }
 int main()
-{
+{  
     int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     create(a, 9);
+    //we can create the whole linked list by inserting elements
     insert(first, 4, 10);
     display(first);
     insert(first, 3,33);
