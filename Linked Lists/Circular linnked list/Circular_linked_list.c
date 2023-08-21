@@ -93,8 +93,9 @@ void InsetNode(struct node *p, int index, int x)
 int DeleteNode(struct node *p, int position)
 {
     struct node *q;
-    int i, x;
-    if (position < 0 || position > LengthOfNode(head)){
+    int i=0, x;
+    if (position < 0 || position > LengthOfNode(head))
+    {
         return -1;
     }
     if (position == 1)
@@ -136,7 +137,7 @@ int main()
     InsetNode(head, 0, 10);
     DisplayNode(head);
     printf("After Deletion of the node\n");
-    DeleteNode(head,3);
+    DeleteNode(head, 3);
     DisplayNode(head);
 
     return 0;
