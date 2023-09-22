@@ -84,7 +84,7 @@ void InsertNode(struct node *p, int index, int x)
 // deletion of the node from the linked list
 int DeleteNode(struct node *p, int index)
 {
-    
+
     int x = -1;
     if (index < 1 || index > LengthOfList(first))
         return -1;
@@ -96,13 +96,14 @@ int DeleteNode(struct node *p, int index)
         x = p->data;
         free(p);
     }
-    else{
-        for(int i=0;i<index-1;i++)
-        p=p->next;
-        p->prev->next =p->next;
-        if(p->next)
-        p->next->prev = p->prev;
-        x=p->data;
+    else
+    {
+        for (int i = 0; i < index - 1; i++)
+            p = p->next;
+        p->prev->next = p->next;
+        if (p->next)
+            p->next->prev = p->prev;
+        x = p->data;
         free(p);
     }
     return x;
@@ -117,7 +118,7 @@ int main()
     InsertNode(first, 3, 13);
     DisplayNode(first);
     printf("The length of the linked list is: %d\n", LengthOfList(first));
-    printf("%d\n", DeleteNode(first,4));
+    printf("%d\n", DeleteNode(first, 4));
     DisplayNode(first);
     printf("the length of the linked list is: %d\n", LengthOfList(first));
 
