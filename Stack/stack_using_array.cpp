@@ -90,7 +90,7 @@ int main()
 
 
     cout<<"peekind the value from the stack "<<peek_stack(st,3)<<endl;
-  cout<<boolalpha;//use to show the boolean result true or false
+    cout<<boolalpha;//use to show the boolean result true or false
     cout<<"the stack is empty "<<isempty(st)<<endl;
     cout<<"the stack is full "<<isfull(st)<<endl;
     cout<<"the top value of the stack on which it is pointing is  "<<stack_top(st);
