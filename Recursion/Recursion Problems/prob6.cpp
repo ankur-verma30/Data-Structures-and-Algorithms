@@ -1,7 +1,7 @@
 // check whether the string is palindrome
 
 
-#include<bits/stdc++.h>
+#include<bits/stdc++.h>//contains all the header files
 
 using namespace std;
 
