@@ -24,6 +24,7 @@ int SecondLargeElement(vector<int> &a)
     return secondLargeElement;
 }
 
+ 
 // OPTIMISED PROBLEM  Time Complexity is O(N)
 int SecondLargeElementVersion2(vector<int> &a)
 {
