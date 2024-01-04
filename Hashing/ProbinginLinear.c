@@ -43,6 +43,11 @@ int main()
     insert(HT, 16);
 
     printf("key found at index %d\n", search(HT, 16));
+    int n=sizeof(HT)/sizeof(HT[0]);
+
+    for(int i=0;i<n;i++)
+    printf("%d ",HT[i]);
+    
     printf("completed the program");
 
     return 0;
