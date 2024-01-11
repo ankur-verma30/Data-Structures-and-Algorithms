@@ -12,7 +12,7 @@ int include[9] = {0};
 int t[2][6];
 
 void Union(int u, int v)
-{
+ { 
     if (sets[u] < sets[v])
     {
         sets[u] += sets[v];
