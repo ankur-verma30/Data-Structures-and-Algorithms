@@ -20,6 +20,6 @@ Course Contents
 
 9. AVL Trees
 
-10. Graphs
+10. Graphsb/
 
 11. Hashing Technique
