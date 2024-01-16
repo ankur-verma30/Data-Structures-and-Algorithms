@@ -11,7 +11,7 @@ int sets[8] = {-1, -1, -1, -1, -1, -1, -1, -1};
 int include[9] = {0};
 int t[2][6];
 
-void Union(int u, int v)
+void Union(int u, int v)//this is the function that will do union
  { 
     if (sets[u] < sets[v])
     {
